@@ -4,9 +4,8 @@ python .\setup.py sdist
 
 python .\setup.py sdist bdist_wheel
 
-#Change the version number
-twine upload --repository-url https://test.pypi.org/legacy/ dist/rautils-1.0.7.tar.gz
+twine upload --repository-url https://test.pypi.org/legacy/ dist/rautils-1.0.9.tar.gz
 
 python -m pip install --index-url https://test.pypi.org/simple/ rautils
 
-twine upload dist/rautils-1.0.7.tar.gz
+twine upload dist/rautils-1.0.9.tar.gz

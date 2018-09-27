@@ -2,6 +2,9 @@ import os
 
 
 def html2PDF(file_paths=None):
+    '''
+    file_paths: list - list of file paths to convert from html to pdf
+    '''
 
     if file_paths:
         for path in file_paths:
@@ -12,6 +15,9 @@ def html2PDF(file_paths=None):
 
 
 def _html2PDF(location):
+    '''
+    location: str - file path|dir to convert from html to pdf.  if it is a dir it will convert all html files to pdf files
+    '''
     if os.path.isdir(location):
         cwd = os.getcwd()
         os.chdir(location)
