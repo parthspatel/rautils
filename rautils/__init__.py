@@ -1,6 +1,5 @@
-from rautils.manip import Manip
-from rautils.market import Market
-from rautils.reader import Reader
-from rautils.convert import convert
+from convert import *
+from manip import *
+from reader import *
 
 name = 'rautils'
