@@ -1,12 +1,12 @@
 import setuptools
 
-name = "rautils",
-version = "0.0.1",
-author = "Parth S. Patel",
-author_email = "parthspatel.nj@gmail.com",
-description = "Python utility for file manipulation",
-long_description_content_type = "text/markdown",
-url = "https://github.com/parthspatel/rautils",
+name = "rautils"
+version = "1.0.0"
+author = "Parth S. Patel"
+author_email = "parthspatel.nj@gmail.com"
+description = "Python utility for file manipulation"
+long_description_content_type = "text/markdown"
+url = "https://github.com/parthspatel/rautils"
 
 classifiers = [
     "Programming Language :: Python :: 3",
