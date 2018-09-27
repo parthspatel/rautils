@@ -25,4 +25,4 @@ def html2PDF(location):
         os.chdir(cwd)
     else:
         raise ValueError(
-            f'{html2PDF.__name__}: location must be a dir or path')
+            'html2PDF: location must be a dir or path')
