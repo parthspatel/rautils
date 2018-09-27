@@ -1,12 +1,12 @@
 import setuptools
 
-name = "example_pkg",
+name = "rautils",
 version = "0.0.1",
-author = "Example Author",
-author_email = "author@example.com",
-description = "A small example package",
+author = "Parth S. Patel",
+author_email = "parthspatel.nj@gmail.com",
+description = "Python utility for file manipulation",
 long_description_content_type = "text/markdown",
-url = "https://github.com/pypa/sampleproject",
+url = "https://github.com/parthspatel/rautils",
 
 classifiers = [
     "Programming Language :: Python :: 3",
