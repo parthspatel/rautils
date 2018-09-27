@@ -2,15 +2,13 @@ import os
 
 
 def html2PDF(file_paths=None):
-    try:
-        if file_paths:
-            for path in file_paths:
-                _html2PDF(str(os.path.abspath(path)))
-        else:
-            cwd = os.getcwd()
-            _html2PDF(f'{cwd}\\reports')
-    except Exception as ex:
-        raise ex
+
+    if file_paths:
+        for path in file_paths:
+            _html2PDF(str(os.path.abspath(path)))
+    else:
+        cwd = os.getcwd()
+        _html2PDF(f'{cwd}\\reports')
 
 
 def _html2PDF(location):
