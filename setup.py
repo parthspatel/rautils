@@ -1,7 +1,7 @@
 import setuptools
 
 name = "rautils"
-version = "1.0.9"
+version = "1.0.10"
 author = "Parth S. Patel"
 author_email = "parthspatel.nj@gmail.com"
 description = "Python utility for file manipulation"
